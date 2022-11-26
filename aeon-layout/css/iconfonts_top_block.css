@@ -1,0 +1,40 @@
+@font-face {
+  font-family: 'icon_top_block';
+  src:  url('../fonts/icon_top_block.eot?qu8ejz');
+  src:  url('../fonts/icon_top_block.eot?qu8ejz#iefix') format('embedded-opentype'),
+    url('../fonts/icon_top_block.ttf?qu8ejz') format('truetype'),
+    url('../fonts/icon_top_block.woff?qu8ejz') format('woff'),
+    url('../fonts/icon_top_block.svg?qu8ejz#icon_top_block') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"]::before,
+[class*=" icon-"]::before {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icon_top_block' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-filter:before {
+  content: "\e900";
+}
+.icon-setting:before {
+  content: "\e901";
+}
+.icon-activity:before {
+  content: "\e902";
+}
+.icon-graph:before {
+  content: "\e903";
+}
